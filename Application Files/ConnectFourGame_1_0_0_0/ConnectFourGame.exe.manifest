@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ConnectFourGame.exe" version="1.0.0.0" publicKeyToken="094b796060480735" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ConnectFourGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ConnectFourGame.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConnectFourGame.exe" size="12712">
+      <assemblyIdentity name="ConnectFourGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sW5npw4MPUL40+cs9S3caHJ9CiU/6yogbB1Cq2296ww=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ConnectFourGame.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LUKASZ\dolol" issuerKeyHash="fdeeb63680c25c7f34edb7575463601ab75fe21b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>h6tA99P20NDJcZpsmBSMNX/LK/z2wKwziSyEPnzKS/w=</DigestValue></Reference></SignedInfo><SignatureValue>m+HWkXIELmAjzWLO3hUM2BnGEmNycrFTfCtjS6GbQXwvarHZjxHqOr47bf6fgdFEhx7cXncCODBF1WcKIdYxx2LNlhWdDjSv/Mev28sQJJJeE0RVI/hfZq0jxc2sJd0zzgi45l4rm5h2id2Y7l2XzK5yX3qvAj1hpb7pn1Wv1JE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4rGoZnwANcvq5J3b0NfOlP84e0rDMiVizEJridyQCIEo6p6GfhgnqPvc+m1yZAj0fyg2ZNPqVAE21OIkTpghgkJi9fG3aLxvQT8+tGh4aEdf/T5athCSDKQaivuZiX3PMxJf8Zsp990asuu1QKAxRXDhqP2fz5jzhRMGQv8TcFk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fc4bca7c3e842c8933acc0f6fc2bcb7f358c14986c9a71c9d0d0f6d3f740ab87" Description="" Url=""><as:assemblyIdentity name="ConnectFourGame.exe" version="1.0.0.0" publicKeyToken="094b796060480735" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LUKASZ\dolol</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9ySbwIXIv2yXuSmBhDhWehMI3wUEMneqp/ebMtZyHtA=</DigestValue></Reference></SignedInfo><SignatureValue>qjovrxJJA6gutll3DD7hDQlSMXd4WrTfAlQIjyzoftsvzYo5o1LscE3rMJ3X4WbD+QyNKXE44fIS1aCACPcSWTF/3vz3bLD0fPr7AyTcJ8sYZvmWumPv6L6HwiqbG6wcwhL8QgFU8dbaI9zJwO3hlp/gmotw1t3xdBqiKC1Bb8M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4rGoZnwANcvq5J3b0NfOlP84e0rDMiVizEJridyQCIEo6p6GfhgnqPvc+m1yZAj0fyg2ZNPqVAE21OIkTpghgkJi9fG3aLxvQT8+tGh4aEdf/T5athCSDKQaivuZiX3PMxJf8Zsp990asuu1QKAxRXDhqP2fz5jzhRMGQv8TcFk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQZvHb4H9nsp9Ba/SfzILHhDANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgATABVAEsAQQBTAFoAXABkAG8AbABvAGwwHhcNMjQxMDE4MDg0NjQ0WhcNMjUxMDE4MTQ0NjQ0WjAjMSEwHwYDVQQDHhgATABVAEsAQQBTAFoAXABkAG8AbABvAGwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOKxqGZ8ADXL6uSd29DXzpT/OHtKwzIlYsxCa4nckAiBKOqehn4YJ6j73PptcmQI9H8oNmTT6lQBNtTiJE6YIYJCYvXxt2i8b0E/PrRoeGhHX/0+WrYQkgykGor7mYl9zzMSX/GbKffdGrLrtUCgMUVw4aj9n8+Y84UTBkL/E3BZAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAo4E+axhhmmEqXjUmZ+pcGbKhdhMkJFCWYYBuNbFhwskSCH6fcroXrD3L8MJI5/Tvv7HR0rQPz6Iaww6ElGcXcPEmH0SOIz9+yllpagKSRRFIGMljEJ9WxKf2WobVwQeCeopN/EbKD8C56b8J29tt+sXHIJ6xmWN7H5SRzR49t1U=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
